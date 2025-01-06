@@ -15,7 +15,7 @@ REM 检查必要的Python库
 python -c "import xmind,markdown,bs4" 2>nul
 if %errorlevel% neq 0 (
     echo 正在安装必要的Python库...
-    pip install xmind-sdk-python markdown beautifulsoup4
+    pip install xmind markdown beautifulsoup4
 )
 
 REM 处理文件
